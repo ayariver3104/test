@@ -1,0 +1,41 @@
+ "version": 1,
+  "apps": [
+    {
+      "id": "api-server",
+      "name": "API Server",
+      "command": "C:\\\\Windows\\\\System32\\\\notepad.exe",
+      "args": [],
+      "cwd": "C:\\\\Windows\\\\System32",
+      "icon": null,
+      "tags": [
+        "api",
+        "dev"
+      ],
+      "env": {
+        "EXAMPLE": "1"
+      },
+      "run_as_admin": false,
+      "favorite": true,
+      "notes": "サンプルとしてメモ帳を起動します。"
+    },
+    {
+      "id": "db",
+      "name": "Local DB (sample)",
+      "command": "C:\\\\Windows\\\\System32\\\\calc.exe",
+      "args": [],
+      "cwd": "C:\\\\Windows\\\\System32",
+      "tags": [
+        "db",
+        "dev"
+      ],
+      "run_as_admin": false,
+      "favorite": false,
+      "notes": "サンプルとして電卓を起動します。"
+    }
+  ],
+  "profiles": [],
+  "ui": {
+    "default_view": "list",
+    "theme": "auto"
+  }
+}
